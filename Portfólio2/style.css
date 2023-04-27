@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.tudo {
+    display: flex;
+    height: 100%;
+}
+
+.home {
+    width: 100%;
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.menu {
+    width: 10%;
+    background-color: #021322;
+}
+
+.img_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.texto_home {
+    margin-top: 310px;
+    margin-left: 80px;
+    color: white;
+}
+
+img {
+    display: flex;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    box-shadow: 10px 5px 5px black;
+}
+
+ul a img {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-top: 30px;
+}
+
+button {
+    width: 200px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
